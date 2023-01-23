@@ -1,0 +1,84 @@
+[
+  {
+    "hash": 0,
+    "previousHash": null,
+    "smartContracts": []
+  },
+  {
+    "hash": "00df2cba1bc238ed4cf63b2548b6cdfee28eb1ba95af5c10b5e0e00f6a318032",
+    "previousHash": 0,
+    "nonce": 197,
+    "smartContracts": [
+      {
+        "pathToPkg": "../pkg/build_a_smart_contract_in_rust.js",
+        "state": {
+          "base_account": {
+            "total_clicks": 0,
+            "clickers": []
+          }
+        },
+        "id": 0
+      }
+    ]
+  },
+  {
+    "hash": "00aa59bef7d096e1b81c46e97e426bb7b394ab8457acfd247886a92ef54467f8",
+    "previousHash": "00df2cba1bc238ed4cf63b2548b6cdfee28eb1ba95af5c10b5e0e00f6a318032",
+    "nonce": 13,
+    "smartContracts": [
+      {
+        "pathToPkg": "../pkg/build_a_smart_contract_in_rust.js",
+        "state": {
+          "base_account": {
+            "total_clicks": 1,
+            "clickers": [
+              "tom"
+            ]
+          }
+        },
+        "id": 0
+      }
+    ]
+  },
+  {
+    "hash": "002f03e18fb1f26176eaee62e230c3ecddd7b023bcfc30678ca7fe994a2df6d3",
+    "previousHash": "00aa59bef7d096e1b81c46e97e426bb7b394ab8457acfd247886a92ef54467f8",
+    "nonce": 265,
+    "smartContracts": [
+      {
+        "pathToPkg": "../pkg/build_a_smart_contract_in_rust.js",
+        "state": {
+          "base_account": {
+            "total_clicks": 2,
+            "clickers": [
+              "tom",
+              "shaun"
+            ]
+          }
+        },
+        "id": 0
+      }
+    ]
+  },
+  {
+    "hash": "00723eea2518d67689f6855f2dec9c3f65a3f4c1a4f52ee0bd5fa65a9531ee38",
+    "previousHash": "002f03e18fb1f26176eaee62e230c3ecddd7b023bcfc30678ca7fe994a2df6d3",
+    "nonce": 135,
+    "smartContracts": [
+      {
+        "pathToPkg": "../pkg/build_a_smart_contract_in_rust.js",
+        "state": {
+          "base_account": {
+            "total_clicks": 3,
+            "clickers": [
+              "tom",
+              "shaun",
+              "ahmad"
+            ]
+          }
+        },
+        "id": 0
+      }
+    ]
+  }
+]
