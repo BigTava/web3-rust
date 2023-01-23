@@ -1,5 +1,43 @@
 # Web3 - Build a Smart Contract in Rust
 
+## How to use
+
+#### Install dependencies
+
+```
+cargo test --lib
+```
+
+#### Run tests
+
+```
+wasm-pack test --firefox --headless
+```
+
+#### Deploy smart contract
+
+```
+node node/deploy.js
+```
+
+#### Build nodejs using wasm-pack
+
+```
+wasm-pack build --target nodejs
+```
+
+#### Deploy smart contract
+
+```
+node node/deploy.js pkg/build_a_smart_contract_in_rust.js
+```
+
+#### Call set_click function
+
+```
+node node/smart-contract.js 0 set_clicl tom
+```
+
 ## 1
 
 ### --description--
